@@ -1,0 +1,6 @@
+applications:
+  - name: sap-btp-cicd-demo
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
