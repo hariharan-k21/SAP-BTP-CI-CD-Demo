@@ -1,0 +1,12 @@
+_schema-version: "3.3"
+ID: sap-btp-cicd-demo
+version: 1.0.0
+
+modules:
+  - name: sap-btp-cicd-demo
+    type: nodejs
+    path: .
+    parameters:
+      memory: 128M
+    build-parameters:
+      builder: npm
