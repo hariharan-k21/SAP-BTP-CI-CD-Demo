@@ -1,0 +1,11 @@
+{
+  "name": "sap-btp-cicd-demo",
+  "version": "1.0.0",
+  "description": "SAP BTP CI/CD demo",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
