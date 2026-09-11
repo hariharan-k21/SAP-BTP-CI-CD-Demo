@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.end(`
     <html>
       <body>
-        <h1>SAP BTP CI/CD Demo by Hariharan K On Cloud Foundry !!!</h1>
+        <h1>SAP BTP CI/CD Demo by Hariharan K On Cloud Foundry !!</h1>
         <p>Deployment successful!</p>
       </body>
     </html>
